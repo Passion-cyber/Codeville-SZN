@@ -22,6 +22,9 @@ for (let button of buttons) {
   });
 } 
 
+
+
+// this function restarts the game
 let restartButton = document.getElementById("controlBtn");
 
 restartButton.addEventListener("click", () => {
