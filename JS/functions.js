@@ -1,7 +1,7 @@
 // This function is to check when the game is won
 
 function checkIfGameIsWon(first, second, third) {
-  if (display.textContent.includes("won the game")) {
+  if (display.textContent.includes("won the game 😂")) {
     return;
   }
 
@@ -55,5 +55,5 @@ function checkDraw() {
       return;
     }
   }
-  display.textContent = "It is a Draw Game";
+  display.textContent = "It is a Draw Game 😎";
 }
